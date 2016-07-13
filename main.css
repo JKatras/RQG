@@ -1,0 +1,59 @@
+body {
+  background-color: #FAC998;
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+  color: #FF602B;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.row {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+#quote-container {
+  display:none;
+  min-height:279px;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 700px;
+  border: 2px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 50px 40px;
+}
+
+blockquote {
+/*   display:none; */
+  font-family: "Josefin Slab", serif;
+  border: none;
+  font-size: 28px;
+  text-align: left;
+  padding: 0;
+}
+
+#button-container {
+  text-align: right;
+  font-size: 52px;
+}
+
+#button-container a {
+  padding-left: 20px;
+}
+
+.page-footer {
+  font-size: 14px;
+  font-weight: 600;
+  position: fixed;
+  background-color: #FAC998;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
