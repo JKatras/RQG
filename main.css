@@ -1,5 +1,6 @@
 body {
   background-color: #FAC998;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 a,
@@ -9,6 +10,7 @@ a:hover {
   color: #FF602B;
 }
 
+a,
 a:hover {
   text-decoration: none;
 }
@@ -31,7 +33,6 @@ a:hover {
 }
 
 blockquote {
-/*   display:none; */
   font-family: "Josefin Slab", serif;
   border: none;
   font-size: 28px;
