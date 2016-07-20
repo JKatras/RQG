@@ -1,4 +1,8 @@
-$(document).ready(getQuote);
+// $(document).ready(getQuote);
+$(document).ready(function(){
+  getQuote();
+});
+
 $('#get-quote-button').on('click', function() {
   $('#quote-container').fadeOut();
   getQuote();
